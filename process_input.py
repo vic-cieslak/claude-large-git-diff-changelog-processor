@@ -9,7 +9,7 @@ API_URL = "https://api.anthropic.com/v1/messages"
 # Configuration
 input_file = "changelog.txt"
 output_dir = "changelog_chunk_processed"
-max_chunk_size = 800  # max characters per request
+max_chunk_size = 400  # max characters per request - 8000 should work but wasnt tested
 
 
 
