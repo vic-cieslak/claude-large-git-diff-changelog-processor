@@ -4,6 +4,11 @@
 
 This project provides tools to process and summarize large git diff changelog files by interacting with the Anthropic API. The repository contains two Python scripts:
 
+## Example input
+
+[![Watch the video](https://img.youtube.com/vi/_4bHSJDp1wY/0.jpg)](https://www.youtube.com/watch?v=_4bHSJDp1wY)
+
+
 1. **`process_input.py`**: This script processes a large git diff changelog file, splits it into smaller chunks, and sends these chunks to the Anthropic API to generate concise summaries or commit messages.
 2. **`process_json_text.py`**: After the summaries are generated, this script extracts the relevant text from the API responses and compiles them into a single output file.
 
